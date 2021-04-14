@@ -1,0 +1,134 @@
+#main {
+    width: 100%;
+    height: 100%;
+    background: #3d3a3a;
+    border: 10px solid black;
+}
+
+#header, #content, #footer {
+    margin: 10px;
+    position: inherit;
+    height: 200px;
+    background: red;
+    margin-bottom: 10px;
+    border : 10px solid black;
+    position: relative;
+}
+
+#content {
+    height : 580px;
+}
+
+#footer{
+    height : 200px;
+}
+
+.hd1 {
+    width: 23%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 245px;
+    transform: translate(-50%, -50%);
+    border: 10px solid black;
+    background: blue;
+}
+
+.hd2 {
+    width: 900px;
+    height: 80%;
+    margin-left: 10px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid black;
+    background: blue;
+}
+
+.hd3 {
+    width: 22%;
+    height: 80%;
+    margin: 10px;
+    margin-left: 76%;
+    margin-right: 0;
+    border: 10px solid black;
+    background: blue;
+}
+
+.cont1 {
+    position: absolute;
+    width: 22%;
+    height: 93%;
+    background: blue;
+    border: 10px solid black;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+.cont2 {
+    position: absolute;
+    width: 72%;
+    height: 93%;
+    background: blue;
+    border: 10px solid black;
+    margin-left: 26%;
+    margin-top: 0.5%;
+}
+
+.sidebar1 {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 6%;
+    width: 70%;
+    height: 7%;
+    background: yellow;
+    border: 10px solid black;
+}
+
+.sidebar2 {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50%;
+    width: 70%;
+    height: 7%;
+    background: yellow;
+    border: 10px solid black;
+}
+
+.CONTENT_ONE, .CONTENT_TWO, .CONTENT_THREE {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+    width: 95%;
+    height: 12%;
+    background: yellow;
+    border: 10px solid black;
+}
+
+.CONTENT_TWO {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.CONTENT_THREE {
+    height: 8%;
+}
+
+.main_item, .main_two {
+    width: 14.5%;
+    height: 45%;
+    background: #93ff61;
+    border: 10px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+
+.main_two {
+    height: 8%;
+}
+
+
